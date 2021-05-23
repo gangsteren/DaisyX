@@ -154,13 +154,13 @@ STRINGS:
     cant_get_user: "Kullanıcıyı alamadım! Eğer sakıncası varsa, lütfen mesajına cevap verin ve tekrar deneyin."
     emoji_not_allowed: "Üzgünüm, ama yönetici rollerinde emoji olamaz 😞"
   pm_menu:
-    start_hi_group: 'Selam! Benim adım AllMight'
-    start_hi: "Selam! Adım AllMight, grubunuzu verimli bir şekilde yönetmenize yardım ediyorum!"
+    start_hi_group: 'Selam! Benim adım Phantom'
+    start_hi: "Selam! Adım Phantom, grubunuzu verimli bir şekilde yönetmenize yardım ediyorum!"
     btn_source: "📦 Code source"
     btn_help: "❔ Yardım"
     btn_lang: "🇹🇷 Dil"
-    btn_group: "👥 Daisy Grubu"
-    btn_channel: "📡 Daisy Kanalı"
+    btn_group: "👥 Phantom Grubu"
+    btn_channel: "📡 Phantom kanalı "
     back: Geri
     #/help
     help_header: Hey! check help here
@@ -382,7 +382,7 @@ STRINGS:
     select_pm_lang: "<b>Yeni dilinizi seçin:</b>"
     select_chat_lang: "<b>Yeni sohbet dili seçin:</b>"
     crowdin_btn: "🌎 Çeviri konusunda bize yardımcı olun"
-    help_us_translate: "<a href=\"https://crowdin.com/project/AllMightbot\">🌎 Dilleri geliştirmemize yardımcı olun</a>"
+    help_us_translate: "<a href=\"https://crowdin.com/project/PhantomGuardbot\">🌎 Dilleri geliştirmemize yardımcı olun</a>"
     not_supported_lang: Bu dil desteklenmiyor!
     lang_changed: Dil <b>{lang_name}</b> olarak değiştirildi.
     see_translators: '👥 Çevirenleri gör'
@@ -464,25 +464,25 @@ STRINGS:
   restrictions:
     user_not_in_chat: Kullanıcı bu sohbette değil!
     #Kicks
-    kick_DaisyX: Beni tekmelemeye çalışmak yerine zamanını daha iyi geçirebilirsin. Bu sadece sıkıcı.
+    kick_Phantom: Beni tekmelemeye çalışmak yerine zamanını daha iyi geçirebilirsin. Bu sadece sıkıcı.
     kick_admin: Yönetici tekmelemek iyi bir düşünce değildir.
     kick_self: Kendini tekmelemek istiyorsan - sadece bu sohbetten ayrıl. Kendi kendini cezalandırma konusundaki bu acınası girişimlere bakmak yerine bir daha seni görmek istemiyorum.
     user_kicked: "{user}, {chat_name} grubunda {admin} tarafından tekmelendi."
     #Mutes
-    mute_DaisyX: Aslında, onun yerine seni susturmaktan mutluluk duyarım.
+    mute_Phantom: Aslında, onun yerine seni susturmaktan mutluluk duyarım.
     mute_admin: Yönetici susturabileceğinizi düşünüyorsanız, yanılıyorsunuz!
     mute_self: Kendini tekmelemek istiyorsan - sadece bu sohbetten ayrıl. Kendi kendini cezalandırma konusundaki bu acınası girişimlere bakmak yerine bir daha seni görmek istemiyorum.
     user_muted: "{user}, {chat_name} grubunda {admin} tarafından susturuldu."
-    unmute_DaisyX: Aslında, sessiz değilim.
+    unmute_Phantom: Aslında, sessiz değilim.
     unmute_admin: Haha hayır, önce onu susturmayı dene!
     unmute_self: Önce seni susturmalı mıyım?
     user_unmuted: "{user}, {chat_name} grubunda {admin} tarafından tekrar konuşabilir."
     #Bans
-    ban_DaisyX: Hayır, yapmayacağım! Sohbet sahibinden bunu yapmasını isteyin!
+    ban_Phantom: Hayır, yapmayacağım! Sohbet sahibinden bunu yapmasını isteyin!
     ban_admin: Haha, önce onu <code>/demote</code> edelim.
     ban_self: Neden kendini yasaklamaya çalışıyorsun?
     user_banned: "{user}, {chat_name} grubunda {admin} tarafından yasaklandı."
-    unban_DaisyX: Aslında, yasaklı değilim.
+    unban_Phantom: Aslında, yasaklı değilim.
     unban_admin: Haha hayır, önce onu yasaklamayı dene!
     unban_self: Önce seni yasaklamalı mıyım?
     user_unband: "{user}, {chat_name} grubunda {admin} tarafından yasağı kaldırıldı."
@@ -523,9 +523,9 @@ STRINGS:
   #havent_set_rules_note: "You haven't set the rules note yet."
   #success_remove_rules_note: "Successfully removed rules note in <b>{}</b>."
   greetings:
-    default_welcome: "Merhaba {mention}! Nasılsın?"
+    default_welcome: "Merhaba {mention}! Ghost Federasyonuna Hoş Geldin, Nasılsın?"
     default_security_note: "Hoşgeldin {mention}! Lütfen kendini insan olarak doğrulamak için aşağıdaki düğmeye basın!"
-    thank_for_add: "Thanks for adding me to your group! Take a look at /help and follow my news channel @DaisyXUpdates."
+    thank_for_add: "Thanks for adding me to your group! Take a look at /help and follow my news channel @GhostsKanal."
     bool_invalid_arg: Geçersiz argüman, beklenen <code>on</code>/<code>off</code>.
     #/setwelcome
     saved: Karşılama mesajı <b>%s</b> içinde kaydedildi
